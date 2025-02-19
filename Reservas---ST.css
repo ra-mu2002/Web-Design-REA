@@ -1,0 +1,63 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 621px;
+}
+
+.u-section-1 .u-calendar-1 {
+  width: 589px;
+  --radius: 10px;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+  --num-padding-vertical: 15px;
+  --num-hover-color: #c0c0c0;
+  --num-text-hover-default-color: #111111;
+  --num-active-color: #f2f2f2;
+  --num-text-active-default-color: #111111;
+  --num-color: #4d4d4d;
+  --num-text-default-color: #ffffff;
+  --num-border-active-color: #666666;
+  --num-border-style: solid;
+  --num-border: 4px;
+  --days-padding-vertical: 15px;
+  --days-font-size: 12px;
+  --days-text-transform: uppercase;
+  --year-month-padding-vertical: 25px;
+  --year-month-font-size: 24px;
+  --year-month-font-weight: 700;
+  --year-month-bold: bold;
+  --year-month-text-color: #ffffff;
+  background-image: none;
+  --num-border-color: #333333;
+  --num-border-radius: 7px;
+  --num-current-color: #f2f2f2;
+  --num-text-current-default-color: #111111;
+  --num-border-current-color: #4d4d4d;
+  --num-border-hover-color: #404040;
+  --num-bold: bold;
+  --num-letter-spacing: 1px;
+  --days-text-color: #999999;
+  margin: 129px 23px 38px auto;
+  padding: 30px;
+}
+
+.u-section-1 .u-calendar-time-slot-1 {
+  border-style: solid;
+  --radius: 7px;
+  font-size: 1rem;
+  padding: 8px 25px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-calendar-1 {
+    width: 540px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-calendar-1 {
+    width: 340px;
+    --num-padding-vertical: 10px;
+    --days-font-size: 11px;
+    --year-month-font-size: 20px;
+    --num-font-size: 15px;
+  }
+}
